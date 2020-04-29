@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Verdana;
+    color: #222;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid {
+    min-height: 100%;
+    min-width: 100%;
+    margin: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.lead{
+    text-align: justify;
+}
+
+#logo {
+    width: 5%;
+    height: 5%;
+}
+
+.bg_secondary {
+    background-color: rgba(108, 117, 125, 0.5);
+}
+
+.bg {
+    background-color: rgb(244, 244, 244);
+}
+
+/*Welcome*/
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+/*Hinar*/
+
+.hinar {
+    background-color: rgb(244, 244, 244);
+    padding: 60px;
+}
+
+.hinar .row {
+    margin-bottom: 30px;
+}
+
+/*Közlekedés*/
+
+.kozlekedes {
+    background-color: rgb(244, 244, 244);
+    padding: 50px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.focim {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bek {
+    margin-bottom: 40px;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 16px;
+    width: 100%;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.navlink {
+    font-size: 1.1em !important;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer hr {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+}
+
+.hr-small {
+    border-top: 1px solid #d5d5d5;
+    width: 25%;
+}
+
+/*Carousel*/
+
+.carousel-inner {
+    height: 60%;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-item img {
+    margin: auto;
+    display: block;
+    width: auto;
+    height: 500px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.carousel-inner {
+    margin-bottom: 50px;
+}
+
+/*Media*/
+
+@media only screen and (max-width: 900px) {
+    .display-3 {
+        font-size: 28px !important;
+    }
+    .display-4 {
+        font-size: 32px !important;
+    }
+    .carousel h1 {
+        font-size: 15px !important;
+    }
+    .carousel h2 {
+        font-size: 14px !important;
+    }
+    .carousel-item img {
+        height: 200px;
+    }
+    .btn-outline-light {
+        padding: 5px;
+    }
+    .btn-lg {
+        padding: 5px;
+    }
+    .btn {
+        padding: 5px;
+    }
+    footer h2 {
+        font-size: 28px !important;
+    }
+    footer h3 {
+        font-size: 18px !important;
+    }
+    .szoveg {
+        font-size: 16px;
+    }
+    .welcome {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .kozlekedes {
+        background-color: rgb(244, 244, 244);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .container {
+        background-color: rgb(244, 244, 244);
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hinar {
+        padding: 10px;
+    }
+    .lead{
+        text-align: left;
+    }
+    td{
+        font-size: 10px;
+    }
+    th{
+        font-size: 10px;
+    }
+}
+
+/*video*/
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Quiz*/
+
+.goodAnswer{
+    color: green;
+    font-weight: 900;
+}
+
+.badAnswer{
+    color: red;
+    font-weight: 900;
+}

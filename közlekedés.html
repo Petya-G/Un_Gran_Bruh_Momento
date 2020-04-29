@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hétköznapi alternatívák</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container-fluid">
+
+        <a class="weatherwidget-io" href="https://forecast7.com/hu/47d5019d04/budapest/" data-label_1="BUDAPEST"
+            data-label_2="Időjárás" data-theme="original">BUDAPEST Időjárás</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <img id="logo" src="images/e_car_logo.png">
+
+            <!--Menu-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Navbar-->
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Közlekedésben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hinar.html">Csomagolás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="étkezés.html">Étkezés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solar.html">Napelemek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">QUIZ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Image slider -->
+        <div class="row">
+            <div class="col">
+                <div id="slides" class="carousel slide  bg_secondary" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#slides" data-slide-to="0"></li>
+                        <li data-target="#slides" data-slide-to="1"></li>
+                        <li data-target="#slides" data-slide-to="2"></li>
+                        <li data-target="#slides" data-slide-to="3"></li>
+                        <li data-target="#slides" data-slide-to="4"></li>
+                        <li data-target="#slides" data-slide-to="5"></li>
+                        <li data-target="#slides" data-slide-to="6"></li>
+                        <li data-target="#slides" data-slide-to="7"></li>
+                        <li data-target="#slides" data-slide-to="8"></li>
+                    </ul>
+                    <div class="carousel-inner ">
+
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="images/earth.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid px-5" src="images/da_villanyos.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/hibrid_csuklos.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/mol_bikes.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/lime.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/e-roller.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/tesla_car.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/e_bike.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/bike.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Welcome-->
+
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12"></div>
+                <h1 class="display-3 focim">Közlekedési alternatívák</h1>
+                <hr>
+                <div class="text-justify kozlekedes">
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            A mindennapokban akár munkába, vagy iskolába el kell jutni valahogy.
+                            Aki megteheti az autóval megy, rengetegen tömegközlekedéssel, de akik tudnak
+                            sétálva vagy kerékpárral, esetleg rollerrel jutnak el A-ból B-be.
+                            Az utóbbi hárommal nincs is baj, de sajnos nem mindenki teheti meg,
+                            hogy ezeket a közlekedési módokat használja.
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            Az autókkal van a legnagyobb probléma,
+                            hiszen ezeket általában egy személy használja, hosszabb távokra, ami még több széndioxid
+                            kibocsátást, ezáltal szennyezést jelent.
+                            Erre megoldást nyújthat a tömegközlekedés, ami lehet hogy továbbra is szennyezi a
+                            környezetet,
+                            de sokkal kevésbé, mintha az utasok mind autóval tennék meg ugyanazt az utat.
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            Másik megoldás lehet a hibrid vagy teljesen elektromos autók használata.
+                            Egy elektromos autó nem bocsát ki semmilyen káros anyagot, sok esetben nagyobb távot is bír,
+                            mint fosszilis üzemanyaggal üzemelő társai. Emellett érdemes kiemelni,
+                            hogy az elektromos autóknak nagyon minimális a zajkibocsátása, ami a zajszennyezés
+                            csökkentése szempontjából nagyon jó.
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            A hibrid autók a fosszilis üzemanyaggal üzemelő autók és az elektromos autók ötvözetei,
+                            és ezek bár szennyezik a környezetet, messze nem annyira mint a csak fosszilis üzemanyaggal
+                            üzemelő autók.
+                            Messze a leghíresebb elektromos autó gyártó a Tesla, amely kizárólag elektromos autókat
+                            gyárt, de az elektromos autóknak a hátránya,
+                            hogy sajnos elég drágák.
+                            Azt ajánljuk, hogy használj elektromos, de legalább hibrid autót ha teheted!
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            Előbb lettek említve azok az emberek is akik a tömegközlekedés és kocsikázás helyett inkább
+                            a kerékpárt, rollert, vagy sétát választják.
+                            A kerékpár nagyon jó választás lehet, főleg ha nagyobb távot kell megtenni,
+                            de nem annyira, hogy feltétlen autóba kelljen ülni hozzá. Nem szennyezi a környezetet
+                            semmilyen formában, és még egészséges is!
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            A roller is nagyon jó választás lehet, bár ezt a közlekedési módot inkább a diákok, vagy a
+                            fiatalok használják nagytöbbségben.
+                            Egy átlagos roller bár nem nagyon nagy távokra való, ellenben az elektromos rollerekkel elég
+                            nagy távot kényelmesen és viszonylag gyorsan meg lehet tenni.
+                            Elektromos rollereket lehet venni is, de általában a nagyobb városokban mindenhol vannak
+                            bérelhető, ún. Lime rollerek, amelyek gyorsak, kényelmesek,
+                            és applikáción keresztül meg lehet keresni hol van a legközelebb egy roller.
+                            A Lime feloldási díjat, és aztán percdíjat számol fel, de nem kell aggódni, igen csekély
+                            áron elérhető a szolgáltatás.
+                            
+                        </div>
+                    </div>
+
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            Ha netán adódna a szituáció, hogy valahová autóval kéne menünk de amúgy mi nem rendelkezünk vele, akkor jöhet szóba a carsharing.
+                            A carsharing az olcsó és környezetkímélőbb utazást próbálja elérhetővé tenni mindeki számára.
+                            Hogy mitől is lesz környezetkímélő? Igen egyszerű. Mert elektromosak, illetve mert egy autót sok ember használhat.
+                            Ez a szolgáltatás idősazkos megoldást jelenthet bárkinek, ha autóba kéne ülnie de amúgy valamilyen okból nem tehetné.
+                        </div>
+                    </div>
+
+                    <div class="iframe-container">
+                        <iframe width="2543" height="797" src="https://www.youtube.com/embed/dV_W-RA1dQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <br>
+                    <div class="row bek">
+                        <div class="col-xs-12">
+                            Az előbbiek mellett még mindig akadnak alternatívák melyeket nem említetünk, de erről a listáról még egy elemet kihúzhatunk: mégpedig az elektromos motort.
+                            Azt elektromos autók mellett természetesen vannak elektromos motorok is. Összeségében ugyanazok a tulajdonságok jellemzik. Mégpedig:
+                            rövidtávra lettek kitalálva, olcsóbb a fentartása, csöndes és színtén hatékony a városi közlekedésben.
+                            Nem utolsó sorban a dugók sem jelentenek akadályt. Reméljük segíthettünk neked az ötleteinkkel, hogy te is könnyebben tehess egy szebb,
+                            egészségesebb jövőért!
+                        </div>
+                    </div>
+
+                    <div class="iframe-container">
+                        <iframe width="2543" height="797" src="https://www.youtube.com/embed/MLFjO5tbJSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

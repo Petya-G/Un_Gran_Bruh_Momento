@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hétköznapi alternatívák</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container-fluid">
+
+        <a class="weatherwidget-io" href="https://forecast7.com/hu/47d5019d04/budapest/" data-label_1="BUDAPEST"
+            data-label_2="Időjárás" data-theme="original">BUDAPEST Időjárás</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <img id="logo" src="images/eco_food_icon.png">
+
+            <!--Menu-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Navbar-->
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="közlekedés.html">Közlekedésben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hinar.html">Csomagolás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Étkezés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solar.html">Napelemek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">QUIZ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Welcome-->
+
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-3">Ami a környezetnek, az nekünk is jobb?</h1>
+                    <hr>
+                    <div class="container text-justify hinar">
+                        <div class="row">
+                            <div class="col-12">
+                                Ételeink nagyrésze, árától függetlenül műanyag csomagolást használ.
+                                Ez környezettünkre nézve nagyon káros és már lassan tarthatatlan.
+                                Nem mellesleg itt a nyakunkon a globális felmelegedés.
+                                Ez ellen nagyon jó lépés lenne a csomagolásokat lecserélni többször újrahasznosítható anyagokra.
+                                Például papír, szövet vagy hínár. Viszont nem csak a csomagolással vannak gondok.
+                                Nagyon sok olyan ételt fogyasztunk melynek a forrása is környezetszennyezőbb mint társai.
+                                Például a pálmaolaj. A legtöbb chipsben, csokiban, kekszben és egyéb készételben ez van.
+                                Leginkább azért, mert ez a legolcsóbb zsiradék, de az előállítás nagyon környezetszennyező.
+                                A nagy kereslet miatt rengeteg esőerdőt irtanak ki, hogy a helyükre olajpálmákat ültessenek,
+                                így veszélyeztetve több növény- és állatfaj létét és fennmaradását, ráadásul fura egy növény ez az olajpálma,
+                                ugyanis a gyökerei olyan anyagot termelnek, ami kiöl minden más növényt, és ez a hatóanyag a talajban évtizedekig megmarad.
+                                Mindehhez pedig nagyon hosszadalmas és káros kémiai folyamattal finomítják az olaját, ami kiemelten környezetszennyező.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                A hús egyértelműen a legkárosabb alapanyagunk, már ami a környezetet érinti, különösen az iparilag, nagygazdaságokban és szójával dúsított takarmánnyal etetett jószágok.
+                                A szója népszerűsége miatt erdőket vágnak ki és tesznek termőfölddé, de az állatok tekintetében a legnagyobb kárt mégis a kibocsájtott bélgáz metángáz tartalma okozza,
+                                ami fokozza az üvegházhatást, arról nem is beszélve, mennyi táplálék és víz kell 1 kg hús előállításához.
+                                A legkárosabb a marha- és a bárányhús előállítása, ha tehetjük, együnk kevesebb és minőségibb húst, inkább szabadon tartott és tanyasi gazdálkodásból.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                A kevesebb károsanyag-kibocsátással előállított ételekből álló étrendek egészségesebbek is egy nagyszabású új amerikai kutatás szerint.
+                                A New Orleans-i Tulane Egyetem kutatói több mint 16 ezer amerikai egy napi táplálékának úgynevezett karbonlábnyomát elemezték, vagyis azt,
+                                hogy mekkora szén-dioxid-kibocsátással terheli a környezetet az, amit egy-egy ember elfogyaszt.
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                „A kisebb karbonlábnyomú étrendek kevesebb vörös húst és tejterméket tartalmaznak, ezek előállítása nagy mértékben növeli az üvegházhatású gázok kibocsátását,
+                                valamint sok bennük a telített zsírsav is. Ugyanezek az étrendek több szárnyast, teljes kiőrlésű gabonát és növényi fehérjét tartalmaznak”
+                                – mondta Diego Rose, a tanulmány vezető szerzője.
+                            </div>
+                        </div>
+
+                        <div class="iframe-container">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/nUnJQWO4YJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2 class="display-4">Források</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                        <hr class="hr-small">
+                        <a href="http://www.cookta.hu/hir/20180828-ez-az-5-elelmiszer-a-legkarosabb-a-kornyezetre">
+                            <h3 class="text-center">cookta.hu</h3>
+                        </a>
+                        <a href="https://www.feol.hu/eletstilus/egeszsegesebbek-a-kornyezetkimelo-etelek-2818039/">
+                            <h3 class="text-center">feol.hu</h3>
+                        </a>
+                        <hr class="hr-small">
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
